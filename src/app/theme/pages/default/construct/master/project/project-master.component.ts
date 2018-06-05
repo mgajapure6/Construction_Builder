@@ -19,8 +19,8 @@ export class ProjectMasterComponent implements OnInit, AfterViewInit {
     }
     ngAfterViewInit() {
         this._script.loadScripts('app-locked-left',
-            ['assets/demo/default/custom/crud/metronic-datatable/locked/left.js',
-             'assets/demo/default/custom/crud/wizard/wizard.js']);
+            ['assets/myFiles/master/project/metronic-datatable-locked-left.js',
+             'assets/myFiles/master/project/newProjectWizard.js']);
 
     }
 
